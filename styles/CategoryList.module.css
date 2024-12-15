@@ -1,0 +1,89 @@
+.contentWrapper {
+    display: flex;
+}
+
+.categoryList {
+    width: 416px;
+    height: 710px;
+    background: rgba(239, 238, 246, 1);
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categoryList li {
+    margin-bottom: 23px;
+    color: rgba(92, 106, 121, 1);
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.categoryList li.active {
+    font-weight: bold;
+    color: black;
+}
+
+.categoryList li.active::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.categoryList li:not(.active)::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.bookList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 76px;
+    justify-items: center;
+    margin-left: -60px;
+    margin-top: 46px; 
+    
+   
+}
+
+
+.book {
+    width: 424px;
+}
+
+
+.loadMoreButton {
+    display: flex;
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.loadMoreButton:hover {
+    background-color: #005bb5;
+}
+
+.loadMoreButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+

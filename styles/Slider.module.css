@@ -1,0 +1,48 @@
+/* styles/Slider.module.css */
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; 
+}
+
+.dot {
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%;
+  background: rgba(239, 238, 246, 1);
+
+  margin: 0 5px; 
+  cursor: pointer; 
+}
+
+.active {
+  background: rgba(158, 152, 220, 1);
+
+}
+
+
+.additionalImages {
+  position: absolute;
+  z-index: 1;
+  margin-left: 1350px;
+  margin-top: 79px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.additionalImageTwo {
+margin-left: 40px;
+}

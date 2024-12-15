@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 40px;
+}
+
+.link {
+  font-family: Montserrat;
+  font-size: 10px;
+  line-height: 12.19px;
+  text-decoration: none;
+  color: #5c6a79; 
+}
+
+.boldLink {
+  font-family: Montserrat;
+  font-size: 10px;
+  line-height: 12.19px;
+  color: black; 
+  font-weight: bold; 
+}

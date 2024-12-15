@@ -1,0 +1,109 @@
+.cartContainer {
+  padding: 20px;
+  margin-top: 87px;
+}
+
+.cartHeader {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.19px;
+  color: rgba(92, 106, 121, 1);
+  margin-top: 19px;
+}
+
+.cartItems {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 77px;
+}
+
+.cartItemInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.itemImage {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.itemRating {
+  font-size: 14px;
+  color: #f39c12;
+}
+
+.cartItemQuantity {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  color: rgba(92, 106, 121, 1);
+}
+
+.cartItemQuantity button {
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.quantityButton {
+  width: 21px;
+  height: 24px;
+  cursor: pointer;
+
+}
+
+.cartTotal {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+}
+
+.checkoutButton {
+  padding: 10px 35px;
+  color: rgba(76, 61, 178, 1);
+  background-color: #0000;
+  cursor: pointer;
+  border: 1px solid #4c3db2;
+}
+
+
+.cartItemPrice {
+  color: rgba(28, 42, 57, 1);
+  font-weight: bold;
+}
+
+.cartItemDelivery {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  color: rgba(92, 106, 121, 1);
+
+}
+
+.reviews {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.62px;
+  color: rgba(92, 106, 121, 1);
+  margin-left: 6px;
+}

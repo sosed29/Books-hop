@@ -1,0 +1,12 @@
+.userShop {
+    display: flex;
+    align-items: center;
+    gap: 99px; 
+  }
+  
+  .icon {
+   width: 12px;
+   height: 15px;
+    cursor: pointer; 
+  }
+  

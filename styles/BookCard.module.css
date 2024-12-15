@@ -1,0 +1,90 @@
+.book {
+    display: flex;
+    width: 424px;
+    height: 300px;
+
+}
+
+.bookImage {
+    width: 212px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bookTitle {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-bottom: 4px;
+}
+
+.bookAuthors {
+    font-family: Open Sans;
+    font-size: 10px;
+    line-height: 13.62px;
+    color: rgba(92, 106, 121, 1);
+    margin-bottom: 4px;
+}
+
+.bookPrice {
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 15.85px;
+    color: rgba(28, 42, 57, 1);
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.bookRating {
+    color: gold;
+    margin-bottom: 10px;
+    margin-bottom: 16px;
+}
+
+.bookDescription {
+    font-family: Open Sans;
+    font-size: 10px;
+    line-height: 13.62px;
+    color: rgba(92, 106, 121, 1);
+    margin-bottom: 16px;
+
+
+}
+
+.buyButton {
+    font-family: Montserrat;
+    font-size: 8px;
+    line-height: 9.75px;
+    background-color: #0000;
+    color: rgba(76, 61, 178, 1);
+    border: 1px solid #4c3db2;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inCartButton {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 9.75px;
+    background-color: transparent;
+    color: rgba(92, 106, 121, 1);
+    border: 1px solid rgba(238, 237, 245, 1)
+}
+
+.reviews {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.62px;
+    color: rgba(92, 106, 121, 1);
+    margin-left: 6px;
+}

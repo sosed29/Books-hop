@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(28, 42, 57, 1);
+    font-weight: bold;
+  }
+
+  
